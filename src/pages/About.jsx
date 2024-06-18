@@ -7,6 +7,7 @@ import { CTA } from "../components";
 import { experiences, skills, education } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import Download from "../components/Download";
 
 const About = () => {
   return (
@@ -31,6 +32,7 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
+            <div className='tooltip'>
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
@@ -40,10 +42,16 @@ const About = () => {
                   className='w-1/2 h-1/2 object-contain'
                 />
               </div>
+              </div>
+              <span className='tooltiptext'>{skill.name}</span>
             </div>
           ))}
         </div>
       </div>
+
+      <hr className='border-slate-200' />
+      <Download />
+      <hr className='border-slate-200 mt-12' />
 
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
