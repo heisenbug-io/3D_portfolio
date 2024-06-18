@@ -26,6 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import laravel from './laravel.svg'
+import django from './django.svg'
+import docker from './docker.svg'
+import aws from './aws.svg'
+import firebase from './firebase.svg'
+import mysql from './mariadb.svg'
+import postgresql from './postgresql.svg'
+import threejs from './threejs.svg'
 
 export {
     css,
@@ -55,5 +63,13 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    laravel,
+    django,
+    docker,
+    aws,
+    firebase,
+    mysql,
+    postgresql,
+    threejs
 }
