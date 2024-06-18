@@ -233,18 +233,18 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: summiz,
-        theme: 'btn-back-pink',
-        name: 'Jewellery Shop ERP System',
-        description: 'Developed an ERP system for a jewellery shop, enabling the management of products, orders, and customers. Built with Laravel and Vue.js.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
         iconUrl: pricewise,
         theme: 'btn-back-blue',
         name: 'Dashboard for multi-vendor e-commerce platform',
         description: 'Developed a dashboard for a multi-vendor e-commerce platform, allowing vendors/admins/customers to manage their products and orders. Built with Laravel and FilamentPHP.',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-pink',
+        name: 'Jewellery Shop ERP System',
+        description: 'Developed an ERP system for a jewellery shop, enabling the management of products, orders, and customers. Built with Laravel and Vue.js.',
+        link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: threads,
