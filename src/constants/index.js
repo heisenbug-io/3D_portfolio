@@ -237,14 +237,14 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Dashboard for multi-vendor e-commerce platform',
         description: 'Developed a dashboard for a multi-vendor e-commerce platform, allowing vendors/admins/customers to manage their products and orders. Built with Laravel and FilamentPHP.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://ecomm.heisenbug.pro/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-pink',
         name: 'Jewellery Shop ERP System',
         description: 'Developed an ERP system for a jewellery shop, enabling the management of products, orders, and customers. Built with Laravel and Vue.js.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://jewellery.heisenbug.pro/',
     },
     {
         iconUrl: threads,
@@ -265,13 +265,13 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Spotify Clone',
         description: 'Developed a clone of Spotify, allowing users to listen to music, create playlists, and follow artists. Built with PHP and bootstrap.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'https://github.com/heisenbug-io/XMusic',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-yellow',
         name: 'Instagram Clone',
         description: 'Developed a clone of Instagram, allowing users to post images, follow other users, and like/comment on posts. Built with Laravel and Vue.js.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://github.com/heisenbug-io/Instagram-Clone-Laravel',
     }
 ];
